@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Where Ya At</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="butt1">Create My Account</string>
+    <string name="butt3">Or login using</string>
+    <string name="loginbutt">Or sign up using</string>
+    <string name="logo">Just Do It</string>
+    <string name="butt2">Or sign in using</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_second_main">SecondMainActivity</string>
+    <string name="btnClearMess">Clear All</string>
+    <string name="send">Send</string>
+    <string name="mess">Message</string>
+    <string name="messw">Messages</string>
+    <string name="logee">Logout</string>
+    <string name="hint">Type a Message</string>
+    <string name="join">Join Chat Group</string>
+    <string name="create">Create  A New Chat Group</string>
+    <string name="title_activity_joined">JoinedActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_chat_group">ChatGroupActivity</string>
+    <string name="back">Back</string>
+    <string name="title_activity_create_first">CreateFirstActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="admn">Be the Admin</string>
+    <string name="txtCreategrp">Create Group</string>
+    <string name="txtMess">Messages</string>
+    <string name="title_activity_messages">MessagesActivity</string>
+    <string name="judt">Just Do It</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvAdminName">Type the name of a chat group to be shared for your and enter a 5 pin digit as a pin to access it</string>
+    <string name="btnReenter">Enter key word again below</string>
+    <string name="btnFirst">Submit</string>
+    <string name="hintSendMes">Type Your Message</string>
+    <string name="basicMess">Messages</string>
+    <string name="adminPreviledges">Admin Privileges</string>
+    <string name="hint1">Type a message</string>
+    <string name="close">Close</string>
+    <string name="back3">Back to main menu</string>
+    <string name="clear_all_messages">Clear All Messages</string>
+</resources>

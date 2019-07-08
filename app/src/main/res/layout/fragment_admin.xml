@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminFragment">
+
+    <EditText
+        android:id="@+id/etDisplay"
+        android:layout_width="361dp"
+        android:layout_height="306dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="367dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSendMess"
+        android:layout_width="344dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="229dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/hintSendMes"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/buttonstyle2"
+        android:text="@string/send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/btnClearMess"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
